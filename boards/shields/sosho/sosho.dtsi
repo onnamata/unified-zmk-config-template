@@ -173,7 +173,7 @@
         spi-max-frequency = <500000>;
         data-ready-gpios = <&gpio1 7 (GPIO_ACTIVE_HIGH)>;
         /* Setting a higher sensitivity causes issues on bluetooth */
-        sensitivity = "1x";
+        sensitivity = "2x";
     };
 };
 
