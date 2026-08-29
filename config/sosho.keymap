@@ -50,6 +50,27 @@
             bindings = <&mkp MCLK>;
         };
 
+                //ここから追加：左手側コンボ
+        //S+D = 右クリック
+        combo_LEFT_RCLK {
+            timeout-ms = <50>;
+            key-positions = <14 15>;
+            bindings = <&mkp RCLK>;
+        };
+
+        //S+F = ミドルクリック
+        combo_LEFT_MCLK {
+            timeout-ms = <90>;
+            key-positions = <14 16>;
+            bindings = <&mkp MCLK>;
+        };
+
+        //D+F = 左クリック
+        combo_LEFT_LCLK {
+            timeout-ms = <50>;
+            key-positions = <15 16>;
+            bindings = <&mkp LCLK>;
+        };
     };
 };
 
